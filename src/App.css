@@ -1,0 +1,151 @@
+.nav-ui li{
+  display: inline-block;
+  padding: 10px;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background: cadetblue;
+}
+.inputbox{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 400px;
+  border: 1px solid cadetblue; 
+   
+}
+.item-align{  
+  width: 600px;
+  box-shadow:  0 0 5px 0 rgba(0,0,0,0.3);
+  background: #fff;
+  margin: 2.3% auto 0;
+  text-align: center;
+  border-radius: 9px;
+  display: grid;
+   justify-content: center;
+}
+.btn{
+  width: 421px;
+  height: 40px;
+  margin-top: 5px;
+  background: cadetblue;
+  color: white;
+  border: none;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+.nav-ui 
+{
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  background: cadetblue;
+  align-items: center;
+  display: flex;  
+  justify-content: flex-end;
+}
+.nav-ui li a{
+  color: white;
+  padding: 30px;
+  text-decoration: none;
+}
+
+
+@media(max-width: 1080px)
+{
+        .item-align
+        {
+            width: 60%;
+            box-shadow:  0 0 5px 0 rgba(0,0,0,0.3);
+            background: #fff;
+            margin: 2.3% auto 0;
+            text-align: center;
+            border-radius: 9px;
+            display: grid;
+            justify-content: center; 
+        }
+        .item-align input
+        {
+            margin: 15px;
+            width: 80%;
+            height: 40px;
+            padding: 10px;
+        }
+}
+
+@media(max-width: 998px)
+{
+        .item-align
+        {
+            width: 60%;
+            box-shadow:  0 0 5px 0 rgba(0,0,0,0.3);
+            background: #fff;
+            margin: 2.3% auto 0;
+            text-align: center;
+            border-radius: 9px;
+            display: grid;
+            justify-content: center;
+
+        }
+       
+        .item-align input
+        {
+            margin: 15px;
+            width: 80%;
+            height: 40px;
+            padding: 10px;
+        }
+}
+
+@media(max-width: 798px)
+{
+        .item-align
+        {
+            width: 80%;
+            box-shadow:  0 0 5px 0 rgba(0,0,0,0.3);
+            background: #fff;
+            margin: 2.3% auto 0;
+            text-align: center;
+            border-radius: 9px;
+            display: grid;
+            justify-content: center;
+
+        }
+        
+        .item-align input
+        {
+            margin: 15px;
+            width: 80%;
+            height: 40px;
+            padding: 10px;
+        }
+   }
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
